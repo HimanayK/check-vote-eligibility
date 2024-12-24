@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vote Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <main id="main-container">
+      <section id="eligibility-section">
+        <h1 id="eligibility-heading">Check our vote eligibility ☑</h1>
+
+        <form id="eligibility-form" name="eligibility-form">
+          <div class="input-container">
+            <label>Enter your fullname:</label>
+            <input required id="full-name" type="text" min="1" />
+          </div>
+
+          <div class="input-container">
+            <label>Enter your age:</label>
+            <input required id="age" type="number" />
+          </div>
+
+          <div id="btn">
+            <button id="eligiblity-btn" type="submit">Eligibility</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="registration-section">
+        <h1 id="registration-heading">Vote Registration Form</h1>
+
+        <form id="registration-form" name="registration-form">
+          <div class="input-container1">
+            <label for="first-name">Enter your first name:</label>
+            <input id="first-name" type="text" />
+          </div>
+          <div class="input-container1">
+            <label for="last-name">Enter your last name:</label>
+            <input id="last-name" type="text" />
+          </div>
+          <div class="input-container1">
+            <label for="address">Address:</label>
+            <input id="address" type="text" />
+          </div>
+          <div class="input-container1">
+            <label for="aadhaar">Aadhaar number:</label>
+            <input id="aadhaar" type="number" />
+          </div>
+          <div class="input-container1">
+            <label for="phone-number">Mobile Number:</label>
+            <input id="phone-number" type="tel" />
+          </div>
+          <div id="btn1">
+            <button id="registration-btn" type="submit">Register</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
