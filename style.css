@@ -1,6 +1,10 @@
 body {
     font-family: Helvetica;
     height: 100vh;
+    background-image: linear-gradient(to right, rgba(86, 86, 89, 0.885), rgba(104, 104, 107, 0.869)), url('vote.png');
+    background-size: contain;
+    background-repeat: repeat;
+    background-position-x: center;
   }
 
   #eligibility-section {
